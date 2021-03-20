@@ -1,0 +1,32 @@
+.email_cartoon{
+	.st0{opacity:0.42;fill:#150800;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#DFDFDF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#F5FF9F;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#552B00;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#FFAAB8;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st7{fill:#6A4400;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st8{font-family:'Ambit-Bold';}
+	.st9{font-size:72px;}
+	.st10{letter-spacing:-3;}
+	.st11{fill:#94FFE5;}
+	.st12{fill:#110AFF;}
+	.st13{fill:#07001F;}
+	.st14{fill:#F3FFC9;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st15{fill:#F3FFC9;stroke:#000000;stroke-miterlimit:10;}
+}
+    
+    .email_cartoon{
+        margin: 0 auto;
+        margin-top: -10em;
+        width: 55vw;
+        margin-bottom: 0;
+    }
+
+@media(min-width: 700px){
+.email_cartoon{
+    margin-top: -20em;
+    width: 30vw;
+}
+}
