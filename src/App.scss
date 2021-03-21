@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'Ambit-Bold';
+  src: local('Ambit-Bold'), url(./fonts/Ambit-Bold.ttf) format('truetype');
+}
+
 body{
   padding: 0;
   margin: 0;
   font-family: helvetica;
   visibility: visible;
 }
+
 
 .overlay{
   width: 100%;
@@ -161,12 +167,12 @@ body{
   font-family: helvetica;
   margin-top: 6em;
   h4{
-    font-family: ambit;
+    font-family: Ambit-Bold;
     font-size: 1.4em;
     font-weight: bold;
     letter-spacing: 0.5;
     text-transform: uppercase;
-  } 
+  }
 }
 
 strong{
@@ -216,7 +222,7 @@ strong{
 .skill_section_one{
   background: #b2bdd9;
   margin-top: 0em;
-  color: #000; 
+  color: #000;
   height: 105vh;
 }
 
@@ -240,7 +246,7 @@ strong{
 
 .skill_section_four{
   background: #eceee1;
-  height: 105vh; 
+  height: 105vh;
   position: relative;
   margin-top: -105vh;
 }
@@ -367,7 +373,7 @@ strong{
 }
 
 .top_left, .bottom_right{
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-weight: bold;
   font-size: 17em;
   top: 0;
@@ -406,7 +412,7 @@ strong{
 
 .important{
   font-size: 1.4em;
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-weight: bold;
   margin-left: 0.1em;
   margin-right: 0.2em;
@@ -435,7 +441,7 @@ strong{
 }
 
 .header{
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-size: 4.5em;
   position: relative;
   font-weight: 600em;
@@ -460,7 +466,7 @@ strong{
   position: relative;
   z-index: 3;
   margin-top: 15%;
-  
+
 }
 
 .about_cont_inner{
@@ -468,7 +474,7 @@ strong{
 }
 
 
-//About sections 
+//About sections
 .abt {
   height: 100vh;
 }
@@ -476,7 +482,7 @@ strong{
 
 .quote{
   font-size: 3.5em;
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-weight: bold;
   text-align: center;
   z-index: 3;
@@ -640,7 +646,7 @@ strong{
 
 .date{
   font-size: 1.2em;
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-weight: bold;
 }
 
@@ -650,7 +656,7 @@ strong{
 }
 
 .back{
-  font-family: ambit;
+  font-family: Ambit-Bold;
   font-size: 20em;
   font-weight: bold;
   position: absolute;
@@ -671,7 +677,7 @@ strong{
   height: 10em;
   overflow: hidden;
   margin: auto;
-  
+
 }
 
 //End of about sections
@@ -903,7 +909,7 @@ strong{
     display: none;
   }
 
-  //Contact 
+  //Contact
   .contact_container{
     margin-top: -6em;
     background: #d9dad7;
@@ -911,7 +917,7 @@ strong{
     font-family: helvetica;
     font-size: 1em;
     overflow: hidden;
-    
+
     .contact_inner_section{
       width: 95%;
       h4{
@@ -1180,7 +1186,7 @@ a:hover{
   border-radius: 50%;
   margin: 0 auto;
   margin-top: 5em;
-  
+
 }
 
 .desk_img{
@@ -1300,7 +1306,7 @@ textarea{
 
 .add_cont{
   margin-top: -20em;
-  font-family: ambit;
+  font-family: Ambit-Bold;
   //font-weight: bold;
   span{
     display: block;
